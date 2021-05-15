@@ -1,5 +1,12 @@
 
-<!DOCTYPE html>
+// import minimist from "https://deno.land/x/deno_minimist@v1.0.2/mod.ts";
+// import { BufReader } from "https://deno.land/std/io/bufio.ts";
+
+import { HtmlHead } from "./source/html.ts";
+
+class Builder {
+	async run(): Promise<void> {
+        await Deno.writeTextFile("./public/index.html", `<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -19,15 +26,16 @@
       <h1><img src="/images/ojlogo-280.png"></h1>
       <p>Software for poker and other card games.</p>
     </div>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        try {
-          let app = firebase.app();
-        } catch (e) {
-          console.error(e);
-        }
-      });
-    </script>
   </body>
 </html>
+`);
+	}
+}
+
+(new Builder()).run()
+	.then(() => {
+		console.info("Done.");
+	}).catch((e) => {
+		console.error(e);
+	});
+
