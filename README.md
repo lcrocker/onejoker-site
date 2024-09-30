@@ -1,3 +1,3 @@
-# onejoker-site
-Built with Deno/Lume
+# OneJoker Site
 
+Built with Deno Fresh
