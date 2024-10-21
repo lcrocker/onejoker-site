@@ -46,7 +46,20 @@ export default function ImagesHome() {
         <div class="mt-4">
           <h1>Images</h1>
           <h3 class="mb-4">(Last updated October 20, 2024)</h3>
-          <img src="/img/cd-cards-sample-1.svg" alt="card images" width="16000px" height="44800px" />
+          <p>I'm working on creating a set of card images for use
+          in computer games, online, and mobile.
+          They are fully-scalable hand-tuned SVG, though I will make PNG
+          versions available in various sizes as well.
+          They have large readable indices, with pips horizontal and vertical
+          for easy layering of cards in both directions.
+          Optional 4-color suits or traditional black and red.
+          They are <em>not</em> reversible&mdash;all of the elements are
+          right-side up and take up the whole card surface&mdash;no wasting
+          half the screen area for a feature that was designed for paper.
+          Full-figure court cards designed by Ukranian illustrator Oleg Dovgan.
+          </p><p class="mt-4">Here's a current sample: scale your browser window to see closer.
+          </p><p><img src="/img/cd-cards-sample-1.svg" alt="card images" width="16000px" height="44800px" />
+          </p>
         </div>
       </div>
     </div>
