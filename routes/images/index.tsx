@@ -45,7 +45,8 @@ export default function ImagesHome() {
       <div>
         <div class="mt-4">
           <h1>Images</h1>
-          <h3 class="mb-4">(Last updated September 27, 2024)</h3>
+          <h3 class="mb-4">(Last updated October 20, 2024)</h3>
+          <img src="/img/cd-cards-sample-1.svg" alt="card images" width="16000px" height="44800px" />
         </div>
       </div>
     </div>
