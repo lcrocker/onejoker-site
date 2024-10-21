@@ -45,7 +45,22 @@ export default function CodeHome() {
       <div>
         <div class="mt-4">
           <h1>Code</h1>
-          <h3 class="mb-4">(Last updated September 27, 2024)</h3>
+          <h3 class="mb-4">(Last updated October 20, 2024)</h3>
+          <p>The project includes code libraries in this
+          &nbsp;<a href="https://github.com/lcrocker/ojpoker">GitHub repository</a>.
+            Current languages include
+            &nbsp;<a href="https://dart.dev">Dart</a>&nbsp; and
+            &nbsp;<a href="https://rust-lang.org">Rust</a>.
+            API documentation for these is available
+            &nbsp;<a href="https://lcrocker.github.io/ojpoker/">here</a>.
+          </p>
+
+          <ul class="flex space-x-4">
+          <li class="inline"><a href="https://lcrocker.github.io/ojpoker/dart/index.html">
+          <img class="h-12" alt="dart" src="/img/dart-logo.svg" />&nbsp;Dart</a></li>
+          <li class="inline"><a href="https://lcrocker.github.io/ojpoker/rust/index.html">
+          <img class="h-12" alt="dart" src="/img/rust-logo-blk.svg" />&nbsp;Rust</a></li>
+          </ul>
         </div>
       </div>
     </div>
