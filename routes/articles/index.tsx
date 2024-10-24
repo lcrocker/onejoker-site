@@ -46,6 +46,9 @@ export default function ArticlesHome() {
         <div class="mt-4">
           <h1>Articles</h1>
           <h3 class="mb-4">(Last updated September 27, 2024)</h3>
+          <ul style="list-style-type:disc">
+          <li><a href="/articles/all_hands_high">All distinct high poker hands by rank</a></li>
+          </ul>
         </div>
       </div>
     </div>

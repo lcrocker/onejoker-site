@@ -21,21 +21,40 @@ div#hero {
   background-size: cover;
 }
 
+span.oj-hand {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: "Inconsolata", Lucida Console, Terminal;
+    letter-spacing: -0.2em;
+    word-spacing: +0.5em;
+}
+span.oj-handname {
+    margin-left: 1rem;
+}
+
+span.oj-c {
+    color:#0b0;
+}
+span.oj-d {
+    color:#00b;
+}
+span.oj-h {
+    color:#b00;
+}
+span.oj-s {
+    color:#000;
+}
+
 div.prose {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 
-div.prose p {
-  margin-bottom: 1rem;
-}
+div.prose h2 { margin-bottom: 1rem; }
+div.prose p { margin-bottom: 1rem; }
 
 div.prose p.dateline {
   font-weight: bold;
-}
-
-span.red {
-	color:#902;
 }
 
 .center {
@@ -126,7 +145,7 @@ blockquote {
 }
 
 code, pre {
-    font-family: "Inconsolata", Bitstream Vera Sans Mono, Lucida Console, Terminal;
+    font-family: "Inconsolata", Lucida Console, Terminal;
     background: #dee;
 }
 
