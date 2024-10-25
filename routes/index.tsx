@@ -47,7 +47,7 @@ export default function Home() {
       <br style="clear:both;" />
       <div class="mt-4 prose">
         <h1>Welcome</h1>
-        <h3 class="mb-4">(Last updated September 27, 2024)</h3>
+        <h3 class="mb-4">(Last updated October 24, 2024)</h3>
         <p>
           The OneJoker Project aspires to be a single source for all things
           in the intersection of computers and playing cards.
